@@ -1,7 +1,7 @@
 /**
  * Created by rbaryla on 08.01.2017.
  */
-
+import './index.css';
 import {getUsers, deleteUser} from './api/userApi';
 
 getUsers().then(result => {
